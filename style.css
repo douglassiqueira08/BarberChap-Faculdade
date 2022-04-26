@@ -13,11 +13,13 @@
     text-decoration: none;
     box-sizing: border-box;
     
+    
 }
 :root{
     --font-titulo:'Jua', sans-serif;
     --font-geral: 'Noto Serif', serif;
     --font-acao:'Barlow Condensed', sans-serif;
+    
 }
 html{
     scroll-behavior: smooth;
@@ -367,4 +369,23 @@ header{
 .gallery-items img:hover{
     transform: scale(1.3);
 }
+#link-topo{
+    position: relative;
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background: #02e6f7;  
+    background-image: linear-gradient(to right, #282828, #505152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0.1rem 0.6rem  black;
 
+}
+#seta{
+    transform: rotate(360deg);
+}
