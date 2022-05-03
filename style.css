@@ -2,9 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito:wght@200&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Noto+Serif&family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Jua&family=Rowdies:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *{
     margin: 0;
@@ -16,9 +16,9 @@
     
 }
 :root{
-    --font-titulo:'Jua', sans-serif;
+    --font-titulo:'Bebas Neue', cursive;
     --font-geral: 'Noto Serif', serif;
-    --font-acao:'Barlow Condensed', sans-serif;
+    --font-acao:'Roboto', sans-serif;
     
 }
 html{
@@ -97,7 +97,7 @@ header{
     font-weight: 100;
     text-shadow: 4px 3px 2px black;
     line-height: 3.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
     opacity: 0;
     animation: moveBanner 2s 0.5s forwards;
 
@@ -203,13 +203,13 @@ header{
 .menu-principal a {
     
     color: white;
-    padding-left: 50px;
-    text-shadow: 3px 3px 5px  rgb(81, 13, 238);
+    padding-left: 25px;
+    text-shadow: 3px 3px 5px  #219ebc;
     display: inline;
     transition: .5s;
 }
 .menu-principal a:hover{
-    color: red;
+    color: #ccdfe0;
 }
 
 
