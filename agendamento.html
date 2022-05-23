@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BarberChap - Agendamento</title>
+
+    <link rel="stylesheet" type="text/css" href="layoutagendamento.css">
+
+
+
+</head>
+<body>
+   
+    <header> 
+        <h1>Agendamento</h1>
+    </header><br><br>
+
+    <section>
+      
+      <form name="agendamentoserv" method="post">
+        <br>
+            <label class="labelform" for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nomeCliente" size="50px" required><br><br>
+
+            <label class="labelform" for="sbnome">Sobrenome:</label><br>
+                <input type="text" id="sbnome" name="sbnomeCliente" size="50px" required><br><br>
+
+            <label class="labelform" for="telefone">Telefone:</label><br>
+                <input type="text" id="telefone" name="foneCliente" size="30px" required><br><br>
+
+            <label class="labelform" for="email">E-mail:</label><br>
+                <input type="email" id="email" name="emailCliente" size="50px" required><br><br>
+
+            <label class="labelform" for="data">Data:</label><br>
+                <input type="date" id="data" name="diaAgendado" required><br><br>
+
+            <label class="labelform" for="hora">Horário:</label><br>
+                <input type="time" id="hora" name="horaAgendada" required><br><br>
+
+            <label class="labelform" for="servico">Serviço(s) desejado(s):</label><br>
+                <input type="checkbox" id="servico1" name="servico1" value="Corte">
+                <label for="servico1">Corte</label><br>
+                <input type="checkbox" id="servico2" name="servico2" value="Barba">
+                <label for="servico2">Barba</label><br>
+                <input type="checkbox" id="servico3" name="servico3" value="Pézinho">
+                <label for="servico3">Pézinho</label><br>
+                <input type="checkbox" id="servico4" name="servico4" value="CorteEstilizado">
+                <label for="servico4">Corte Estilizado</label><br>
+                <input type="checkbox" id="servico5" name="servico5" value="Escova">
+                <label for="servico3">Escova</label><br><br>
+            
+            <label class="labelform" for="profissional">Selecione o profissional:</label><br><br>
+                <input type="radio" id="profissional" name="barberAgendado" value="GabrielM">Gabriel Medeiros<br>
+                <input type="radio" id="profissional" name="barberAgendado" value="LucasC">Lucas Costa<br>
+                <input type="radio" id="profissional" name="barberAgendado" value="HenriqueS">Henrique Souza<br><br>
+
+            <input class="botaoEnviar" type="button" onclick="alert('Agendamento realizado com sucesso.')" value="Enviar">        
+    
+    </form>
+       
+</section>
+
+
+</body>
+</html>
